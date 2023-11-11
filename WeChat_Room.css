@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #49C5F6, #930DED);
+}
+
+div {
+   
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.add_room_btn {
+    margin: 15px;
+}
+
+#logout {
+    margin-right: 10px;
+}
+
+#room_name {
+    margin-left: 10px;
+    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    background-color: #930DED;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#user_name {
+    font-size: 25px;
+}

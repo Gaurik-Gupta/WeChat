@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WeChat</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="WeChat_Page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="container">
+        <button id="logout" onclick="logout();">Logout</button>
+        <center>
+                <h1>WeChat</h1>
+            <br>
+            <h3 id="user_name"></h3>
+            <h3 id="room_name"></h3>
+            <div id="output" style="text-align: left; margin-bottom: 70px;"></div>
+        </center>
+    </div>
+
+    <center>
+        <div class="input_div_message_page">
+            <label>Send:</label>
+            <input type="text" id="msg" class="form-control" placeholder="Type Your Message">
+            <button class="btn btn-success" onclick="send();">Send</button>
+        </div>
+    </center>
+    <script src="WeChat_Page.js"></script>
+</body>
+
+</html>

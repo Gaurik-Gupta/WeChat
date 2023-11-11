@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WeChat</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="WeChat_Room.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1 class="header">
+                WeChat
+                <img src="Speech_Bubble.png" width="50px">
+                <button id="logout" onclick="logout();" style="margin: 20px; ">Logout</button>
+                
+            </h1>
+            <h3>Welcome: </h3>
+            <h3 id="user_name"></h3>
+            <div class="form-group input_div_room_page">
+                
+                <label>#Add Room:</label>
+                <input type="text" id="room_name" class="form-control" placeholder="Type Room Name">
+            </div>
+            <button onclick="addRoom();" class="btn btn-info add_room_btn">#Add Room</button>
+            <h3 class="color_white">#TRENDINGROOMS</h3>
+            <div id="output"></div>
+            <br>
+        </center>
+    </div>
+    <script src="WeChat_Room.js"></script>
+</body>
+
+</html>
